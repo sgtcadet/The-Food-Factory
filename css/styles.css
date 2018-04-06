@@ -1,0 +1,292 @@
+body{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff0505+0,000000+100 */
+background: rgb(255,5,5); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,5,5,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,5,5,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,5,5,1) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0505', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+
+position: relative;
+
+	background-image: /url(../img/bg.png);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+div.overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,.7);
+	transition: all ease-in .5s;
+}
+
+
+/*
+*************************
+* Header-top CSS
+*************************
+*/
+header,footer, #content {
+	width:800px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom: .9em;
+}
+header{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ededed+1,333333+100 */
+background: rgb(237,237,237); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(237,237,237,1) 1%, rgba(51,51,51,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(237,237,237,1) 1%,rgba(51,51,51,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(237,237,237,1) 1%,rgba(51,51,51,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#333333',GradientType=0 ); /* IE6-9 */
+
+}
+header a{
+	text-decoration: none;
+	color: black;
+}
+header > #header-top > a > img{
+	width: 70px;
+    float: left;
+    height: 70px;
+}
+#header-top > a > h1{
+	padding-top: .2em;
+	font-size:2.8em;
+	font-weight: bold;
+	font-family: impact;
+	word-spacing: .3em;
+	display: inline-block;
+}
+#header-top > a > p{
+	font-size: 1em;
+	color:#ff0000;
+	margin-left: 23%;
+    margin-right: 0;
+    display: inline-block;
+}
+
+.cf{
+	clear:both;
+}
+#social_icons{
+	float: right;
+	padding-bottom: .1em;
+
+}
+
+
+
+/*
+*************************
+* Login Form
+*************************
+*/
+
+.button{
+	background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    -webkit-box-shadow: 0 1px 0 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    text-shadow: 0 -1px 1px #006799,1px 0 1px #006799,0 1px 1px #006799,-1px 0 1px #006799;
+    height: 30px;
+    line-height: 28px;
+    padding: 0 12px 2px;
+    float: right;
+    border-width: 1px;
+    border-style: solid;
+    box-sizing:border-box;
+}
+.button:hover{
+	background-color: #008ec2;
+	border-color: #006799;
+	color: #fff;
+}
+#loginform-container{
+	background-color: black;
+	max-width: 650px;
+	position: absolute;
+	margin: 20px auto;
+	top:30%;
+	left:38%;
+}
+
+#loginform-container form {
+	box-shadow: 0 1px #a1d541;
+	background-color: #f3f3f3;
+	padding: 26px 24px 46px;
+	font-family: "Open Sans",sans-serif;
+	margin: auto;
+
+	
+}
+
+#loginform-container label{
+	color: #777;
+	font-size: 14px;
+	cursor: pointer;
+	vertical-align: middle;
+	font-weight: normal;
+}
+
+.input ,#loginform-container input[type=text] {
+    font-size: 24px;
+    width: 100%;
+    padding: 3px;
+    margin: 2px 6px 16px 0;
+}
+
+/*
+*************************
+* Header-lower Nav CSS
+*************************
+*/
+.nav{
+	background-color: #000000;
+}
+.nav > ul > a{
+	font-size: 1.2em;
+	text-decoration: none;
+	color:#ffffff;
+	padding: 1.2em 1.5em;
+	display: inline-block;
+	text-transform: uppercase;;
+
+}
+.nav > ul > a:hover{
+	background-color: red;
+}
+
+.nav > ul > a:active{
+	background-color: blue;
+}/*FIND A WAY TO FIX THIS: ACTIVE PAGE LINK MUST STAY RED!!*/
+
+/*
+*************************
+* Header-lower Nav CSS | HOME
+*************************
+*/
+#slide-container{
+	background-color: black;
+}
+
+#slider{
+	
+}
+#slider > img{
+	padding: 0;
+	margin: 0;
+	border-bottom: 5px solid red;
+}
+#slider-content > img{
+	padding: 10px;
+
+}
+
+.latest-news{
+	background-color: #fff;
+	margin: auto;
+	padding: .2em;
+}
+.latest-news h2{
+	color: red;
+	font-size: 1.3em;
+	text-decoration: underline;
+    margin-bottom: .5em;
+}
+.latest-news h3{
+	color: blue;
+}
+.latest-news p{
+	border-bottom: 1px dashed grey;
+	margin-bottom: .5em;
+}
+#news-container{
+	background-color: black;
+	padding: .5em;
+}
+
+footer{
+	text-align: center;
+	color:#fff;
+}
+
+
+
+/*
+*************************
+* Contacts
+*************************
+*/
+
+#contacts{
+	background-color: #000000;
+	padding: 5px;
+}
+.left{
+	width:40%;
+	float: left;
+	background-color: #646464;
+	margin: .5em;
+	padding: .5em;
+}
+.left > p{
+	line-height: 2em;
+	font-family: Century Gothic;
+	font-weight: bold;
+	font-size: 10pt;
+}
+.right{
+	width:40%;
+	float: right;
+	margin: .5em;
+	padding: .5em;
+}
+.contacts-contents{
+	background-color: #fff;
+}
+label{
+	font-family: Century Gothic;
+	font-weight: bold;
+}
+td{
+	padding: .5em;
+}
+
+#con-container{
+	background-color: black;
+	padding: .5em;
+}
+.form{
+	text-align: center;
+}
+.form h1{
+	font-size: 2em;
+	text-align: center;
+}
+
+#name, #email, #message{  
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    width: 26em; /* fallback for the next one, for browsers not recognizing ch */
+    width: 25ch; /* sets the width to 40 times the width of the digit “0” */
+}
+.btn{
+	background-color: #000000;
+	border-style: none;
+	color:#fff;
+	text-transform: uppercase;
+	padding: .6em;
+	border-radius: .5em;
+	cursor: pointer;
+	float: right;
+	margin-left: .5em;
+}
